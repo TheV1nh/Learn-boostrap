@@ -14,5 +14,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('learn_boostrap');
+    return view('pages/top-page/index');
 });
